@@ -1,0 +1,25 @@
+body{margin:0;padding:0;text-align: center;
+overflow-x:hidden;
+background: #000;
+}
+#con{
+	background: url(../images/bg.jpg) no-repeat top center;
+	width:1920px;
+	height:1000px;
+	position: relative;
+	margin:0 auto;
+	
+}
+
+#download{
+	background: url(../images/button.png) no-repeat 0 0px;
+	display: block;
+	width:484px;
+	height:173px;
+	position: absolute;
+	left:948px;
+    top: 612px;
+}
+#download:hover{
+	background-position: 0 -173px;
+}
